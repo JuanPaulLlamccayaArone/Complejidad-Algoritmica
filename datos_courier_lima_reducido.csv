@@ -1,0 +1,301 @@
+ID,Punto_Partida,Punto_Llegada,Distancia (km),Tiempo (min),Precio (S/),Empresa_Courier
+1D1,Carabayllo,Lince,14.19,100,21,Olva Courier
+1D1,Carabayllo,Lince,14.19,38,11,Serpost
+1D1,Carabayllo,Lince,14.19,46,18,DHL Express Perú
+1D2,Cieneguilla,San Luis,23.53,69,17,Olva Courier
+1D2,Cieneguilla,San Luis,23.53,117,21,Serpost
+1D2,Cieneguilla,San Luis,23.53,93,24,DHL Express Perú
+1D3,Ancón,Santa María del Mar,5.59,31,14,Olva Courier
+1D3,Ancón,Santa María del Mar,5.59,52,11,Serpost
+1D3,Ancón,Santa María del Mar,5.59,93,23,DHL Express Perú
+1D4,Puente Piedra,Santa Rosa,10.79,105,17,Olva Courier
+1D4,Puente Piedra,Santa Rosa,10.79,20,16,Serpost
+1D4,Puente Piedra,Santa Rosa,10.79,74,12,DHL Express Perú
+1D5,Puente Piedra,La Perla,28.68,39,18,Olva Courier
+1D5,Puente Piedra,La Perla,28.68,41,18,Serpost
+1D5,Puente Piedra,La Perla,28.68,69,18,DHL Express Perú
+1D6,San Miguel,Santa María del Mar,9.18,88,27,Olva Courier
+1D6,San Miguel,Santa María del Mar,9.18,90,18,Serpost
+1D6,San Miguel,Santa María del Mar,9.18,24,21,DHL Express Perú
+1D7,Carabayllo,San Luis,22.12,102,16,Olva Courier
+1D7,Carabayllo,San Luis,22.12,103,18,Serpost
+1D7,Carabayllo,San Luis,22.12,80,15,DHL Express Perú
+1D8,Chaclacayo,Santa Anita,11.62,93,11,Olva Courier
+1D8,Chaclacayo,Santa Anita,11.62,69,19,Serpost
+1D8,Chaclacayo,Santa Anita,11.62,95,18,DHL Express Perú
+1D9,Cercado de Lima,San Juan de Miraflores,23.11,99,17,Olva Courier
+1D9,Cercado de Lima,San Juan de Miraflores,23.11,44,16,Serpost
+1D9,Cercado de Lima,San Juan de Miraflores,23.11,60,13,DHL Express Perú
+1D10,San Isidro,La Perla,25.59,43,23,Olva Courier
+1D10,San Isidro,La Perla,25.59,110,19,Serpost
+1D10,San Isidro,La Perla,25.59,90,11,DHL Express Perú
+1D11,Chorrillos,Pueblo Libre,29.41,107,14,Olva Courier
+1D11,Chorrillos,Pueblo Libre,29.41,110,15,Serpost
+1D11,Chorrillos,Pueblo Libre,29.41,93,19,DHL Express Perú
+1D12,San Luis,La Perla,26.47,20,16,Olva Courier
+1D12,San Luis,La Perla,26.47,55,11,Serpost
+1D12,San Luis,La Perla,26.47,49,15,DHL Express Perú
+1D13,Lurín,Ancón,18.54,89,22,Olva Courier
+1D13,Lurín,Ancón,18.54,32,9,Serpost
+1D13,Lurín,Ancón,18.54,44,14,DHL Express Perú
+1D14,San Juan de Lurigancho,Villa María del Triunfo,27.77,120,9,Olva Courier
+1D14,San Juan de Lurigancho,Villa María del Triunfo,27.77,29,19,Serpost
+1D14,San Juan de Lurigancho,Villa María del Triunfo,27.77,30,17,DHL Express Perú
+1D15,Los Olivos,Santa Rosa,24.23,22,19,Olva Courier
+1D15,Los Olivos,Santa Rosa,24.23,67,10,Serpost
+1D15,Los Olivos,Santa Rosa,24.23,52,17,DHL Express Perú
+1D16,La Molina,Magdalena del Mar,7.34,52,10,Olva Courier
+1D16,La Molina,Magdalena del Mar,7.34,88,21,Serpost
+1D16,La Molina,Magdalena del Mar,7.34,119,24,DHL Express Perú
+1D17,Villa María del Triunfo,Ate,17.57,42,14,Olva Courier
+1D17,Villa María del Triunfo,Ate,17.57,89,18,Serpost
+1D17,Villa María del Triunfo,Ate,17.57,80,20,DHL Express Perú
+1D18,San Luis,Rímac,9.76,77,21,Olva Courier
+1D18,San Luis,Rímac,9.76,25,11,Serpost
+1D18,San Luis,Rímac,9.76,31,12,DHL Express Perú
+1D19,Jesús María,Jesús María,25.13,38,20,Olva Courier
+1D19,Jesús María,Jesús María,25.13,105,16,Serpost
+1D19,Jesús María,Jesús María,25.13,57,19,DHL Express Perú
+1D20,Ate,San Isidro,10.21,28,14,Olva Courier
+1D20,Ate,San Isidro,10.21,89,21,Serpost
+1D20,Ate,San Isidro,10.21,108,24,DHL Express Perú
+1D21,Lurín,Santa María del Mar,11.61,93,16,Olva Courier
+1D21,Lurín,Santa María del Mar,11.61,29,19,Serpost
+1D21,Lurín,Santa María del Mar,11.61,59,14,DHL Express Perú
+1D22,Cieneguilla,Los Olivos,15.5,126,11,Olva Courier
+1D22,Cieneguilla,Los Olivos,15.5,82,21,Serpost
+1D22,Cieneguilla,Los Olivos,15.5,104,19,DHL Express Perú
+1D23,Carabayllo,Jesús María,12.88,64,12,Olva Courier
+1D23,Carabayllo,Jesús María,12.88,73,19,Serpost
+1D23,Carabayllo,Jesús María,12.88,91,17,DHL Express Perú
+1D24,Lurigancho,La Molina,12.36,106,17,Olva Courier
+1D24,Lurigancho,La Molina,12.36,61,20,Serpost
+1D24,Lurigancho,La Molina,12.36,59,22,DHL Express Perú
+1D25,San Martín de Porres,Santa Anita,20.62,20,17,Olva Courier
+1D25,San Martín de Porres,Santa Anita,20.62,70,13,Serpost
+1D25,San Martín de Porres,Santa Anita,20.62,64,21,DHL Express Perú
+1D26,Santa Anita,San Juan de Lurigancho,24.56,22,15,Olva Courier
+1D26,Santa Anita,San Juan de Lurigancho,24.56,71,23,Serpost
+1D26,Santa Anita,San Juan de Lurigancho,24.56,105,20,DHL Express Perú
+1D27,San Miguel,Villa María del Triunfo,24.2,30,22,Olva Courier
+1D27,San Miguel,Villa María del Triunfo,24.2,46,25,Serpost
+1D27,San Miguel,Villa María del Triunfo,24.2,89,11,DHL Express Perú
+1D28,Bellavista,Callao,9.77,78,21,Olva Courier
+1D28,Bellavista,Callao,9.77,80,13,Serpost
+1D28,Bellavista,Callao,9.77,125,16,DHL Express Perú
+1D29,Santiago de Surco,Callao,24.29,40,15,Olva Courier
+1D29,Santiago de Surco,Callao,24.29,79,21,Serpost
+1D29,Santiago de Surco,Callao,24.29,121,18,DHL Express Perú
+1D30,Los Olivos,Puente Piedra,26.56,57,26,Olva Courier
+1D30,Los Olivos,Puente Piedra,26.56,107,14,Serpost
+1D30,Los Olivos,Puente Piedra,26.56,117,23,DHL Express Perú
+1D31,Bellavista,La Perla,22.52,113,21,Olva Courier
+1D31,Bellavista,La Perla,22.52,82,12,Serpost
+1D31,Bellavista,La Perla,22.52,99,24,DHL Express Perú
+1D32,Cieneguilla,Pueblo Libre,16.09,61,18,Olva Courier
+1D32,Cieneguilla,Pueblo Libre,16.09,120,20,Serpost
+1D32,Cieneguilla,Pueblo Libre,16.09,81,16,DHL Express Perú
+1D33,Rímac,Cercado de Lima,18.53,50,20,Olva Courier
+1D33,Rímac,Cercado de Lima,18.53,25,23,Serpost
+1D33,Rímac,Cercado de Lima,18.53,21,24,DHL Express Perú
+1D34,Santiago de Surco,Carabayllo,24.31,70,21,Olva Courier
+1D34,Santiago de Surco,Carabayllo,24.31,61,24,Serpost
+1D34,Santiago de Surco,Carabayllo,24.31,65,23,DHL Express Perú
+1D35,Barranco,La Punta,25.58,124,19,Olva Courier
+1D35,Barranco,La Punta,25.58,87,24,Serpost
+1D35,Barranco,La Punta,25.58,83,18,DHL Express Perú
+1D36,Miraflores,Breña,15.07,77,12,Olva Courier
+1D36,Miraflores,Breña,15.07,48,10,Serpost
+1D36,Miraflores,Breña,15.07,26,22,DHL Express Perú
+1D37,Magdalena del Mar,Mi Perú,22.87,90,14,Olva Courier
+1D37,Magdalena del Mar,Mi Perú,22.87,43,22,Serpost
+1D37,Magdalena del Mar,Mi Perú,22.87,120,18,DHL Express Perú
+1D38,Comas,Punta Hermosa,26.88,82,23,Olva Courier
+1D38,Comas,Punta Hermosa,26.88,86,21,Serpost
+1D38,Comas,Punta Hermosa,26.88,114,24,DHL Express Perú
+1D39,Punta Hermosa,Comas,29.13,76,12,Olva Courier
+1D39,Punta Hermosa,Comas,29.13,23,19,Serpost
+1D39,Punta Hermosa,Comas,29.13,51,17,DHL Express Perú
+1D40,Lurín,Santa Anita,19.86,92,19,Olva Courier
+1D40,Lurín,Santa Anita,19.86,105,20,Serpost
+1D40,Lurín,Santa Anita,19.86,76,20,DHL Express Perú
+1D41,Lurín,Miraflores,15.7,51,13,Olva Courier
+1D41,Lurín,Miraflores,15.7,91,15,Serpost
+1D41,Lurín,Miraflores,15.7,49,18,DHL Express Perú
+1D42,San Isidro,Punta Negra,26.59,76,21,Olva Courier
+1D42,San Isidro,Punta Negra,26.59,48,21,Serpost
+1D42,San Isidro,Punta Negra,26.59,69,24,DHL Express Perú
+1D43,Villa María del Triunfo,Santa Anita,15.25,56,14,Olva Courier
+1D43,Villa María del Triunfo,Santa Anita,15.25,85,17,Serpost
+1D43,Villa María del Triunfo,Santa Anita,15.25,35,20,DHL Express Perú
+1D44,Carabayllo,Carabayllo,29.41,126,25,Olva Courier
+1D44,Carabayllo,Carabayllo,29.41,20,14,Serpost
+1D44,Carabayllo,Carabayllo,29.41,20,17,DHL Express Perú
+1D45,La Perla,Breña,24.97,40,18,Olva Courier
+1D45,La Perla,Breña,24.97,50,22,Serpost
+1D45,La Perla,Breña,24.97,87,21,DHL Express Perú
+1D46,Cieneguilla,La Perla,18.36,24,22,Olva Courier
+1D46,Cieneguilla,La Perla,18.36,54,17,Serpost
+1D46,Cieneguilla,La Perla,18.36,110,16,DHL Express Perú
+1D47,Chorrillos,Santa Rosa,12.58,90,15,Olva Courier
+1D47,Chorrillos,Santa Rosa,12.58,114,26,Serpost
+1D47,Chorrillos,Santa Rosa,12.58,59,22,DHL Express Perú
+1D48,Punta Hermosa,Surquillo,29.68,123,20,Olva Courier
+1D48,Punta Hermosa,Surquillo,29.68,115,22,Serpost
+1D48,Punta Hermosa,Surquillo,29.68,110,16,DHL Express Perú
+1D49,San Juan de Lurigancho,Ancón,5.38,86,18,Olva Courier
+1D49,San Juan de Lurigancho,Ancón,5.38,85,22,Serpost
+1D49,San Juan de Lurigancho,Ancón,5.38,94,16,DHL Express Perú
+1D50,San Bartolo,Miraflores,8.91,105,25,Olva Courier
+1D50,San Bartolo,Miraflores,8.91,59,13,Serpost
+1D50,San Bartolo,Miraflores,8.91,109,21,DHL Express Perú
+1D51,San Borja,Mi Perú,19.63,24,25,Olva Courier
+1D51,San Borja,Mi Perú,19.63,51,18,Serpost
+1D51,San Borja,Mi Perú,19.63,84,24,DHL Express Perú
+1D52,Callao,San Martín de Porres,11.33,37,20,Olva Courier
+1D52,Callao,San Martín de Porres,11.33,87,21,Serpost
+1D52,Callao,San Martín de Porres,11.33,60,12,DHL Express Perú
+1D53,La Molina,Pucusana,14.44,97,19,Olva Courier
+1D53,La Molina,Pucusana,14.44,39,23,Serpost
+1D53,La Molina,Pucusana,14.44,77,25,DHL Express Perú
+1D54,Comas,Mi Perú,12.37,22,17,Olva Courier
+1D54,Comas,Mi Perú,12.37,75,23,Serpost
+1D54,Comas,Mi Perú,12.37,48,13,DHL Express Perú
+1D55,Los Olivos,Comas,24.13,110,12,Olva Courier
+1D55,Los Olivos,Comas,24.13,42,16,Serpost
+1D55,Los Olivos,Comas,24.13,33,18,DHL Express Perú
+1D56,Ancón,Ventanilla,24.09,98,18,Olva Courier
+1D56,Ancón,Ventanilla,24.09,121,21,Serpost
+1D56,Ancón,Ventanilla,24.09,84,15,DHL Express Perú
+1D57,Comas,Breña,25.6,53,15,Olva Courier
+1D57,Comas,Breña,25.6,112,19,Serpost
+1D57,Comas,Breña,25.6,89,13,DHL Express Perú
+1D58,Cieneguilla,La Victoria,28.85,43,14,Olva Courier
+1D58,Cieneguilla,La Victoria,28.85,72,15,Serpost
+1D58,Cieneguilla,La Victoria,28.85,53,18,DHL Express Perú
+1D59,Surquillo,Ancón,17.78,95,11,Olva Courier
+1D59,Surquillo,Ancón,17.78,70,13,Serpost
+1D59,Surquillo,Ancón,17.78,82,22,DHL Express Perú
+1D60,La Molina,Lince,8.3,108,20,Olva Courier
+1D60,La Molina,Lince,8.3,48,13,Serpost
+1D60,La Molina,Lince,8.3,92,21,DHL Express Perú
+1D61,Comas,San Juan de Miraflores,13.97,42,14,Olva Courier
+1D61,Comas,San Juan de Miraflores,13.97,59,13,Serpost
+1D61,Comas,San Juan de Miraflores,13.97,35,24,DHL Express Perú
+1D62,Villa María del Triunfo,San Bartolo,12.02,92,23,Olva Courier
+1D62,Villa María del Triunfo,San Bartolo,12.02,91,14,Serpost
+1D62,Villa María del Triunfo,San Bartolo,12.02,77,10,DHL Express Perú
+1D63,Jesús María,Independencia,9.57,58,14,Olva Courier
+1D63,Jesús María,Independencia,9.57,72,20,Serpost
+1D63,Jesús María,Independencia,9.57,35,15,DHL Express Perú
+1D64,Punta Negra,Cercado de Lima,23.34,70,11,Olva Courier
+1D64,Punta Negra,Cercado de Lima,23.34,108,24,Serpost
+1D64,Punta Negra,Cercado de Lima,23.34,66,19,DHL Express Perú
+1D65,Punta Negra,San Juan de Lurigancho,23.72,105,24,Olva Courier
+1D65,Punta Negra,San Juan de Lurigancho,23.72,52,16,Serpost
+1D65,Punta Negra,San Juan de Lurigancho,23.72,88,14,DHL Express Perú
+1D66,La Perla,Lurigancho,17.3,114,20,Olva Courier
+1D66,La Perla,Lurigancho,17.3,99,15,Serpost
+1D66,La Perla,Lurigancho,17.3,113,17,DHL Express Perú
+1D67,Pucusana,Ate,13.8,80,13,Olva Courier
+1D67,Pucusana,Ate,13.8,106,25,Serpost
+1D67,Pucusana,Ate,13.8,76,19,DHL Express Perú
+1D68,Puente Piedra,El Agustino,15.51,18,11,Olva Courier
+1D68,Puente Piedra,El Agustino,15.51,26,24,Serpost
+1D68,Puente Piedra,El Agustino,15.51,75,16,DHL Express Perú
+1D69,Lurigancho,Lurín,14.29,86,16,Olva Courier
+1D69,Lurigancho,Lurín,14.29,48,9,Serpost
+1D69,Lurigancho,Lurín,14.29,76,17,DHL Express Perú
+1D70,Carmen de la Legua Reynoso,Pueblo Libre,18.2,78,13,Olva Courier
+1D70,Carmen de la Legua Reynoso,Pueblo Libre,18.2,85,20,Serpost
+1D70,Carmen de la Legua Reynoso,Pueblo Libre,18.2,99,26,DHL Express Perú
+1D71,Pachacámac,San Isidro,24.71,51,17,Olva Courier
+1D71,Pachacámac,San Isidro,24.71,84,21,Serpost
+1D71,Pachacámac,San Isidro,24.71,41,15,DHL Express Perú
+1D72,San Borja,Pachacámac,16.87,88,26,Olva Courier
+1D72,San Borja,Pachacámac,16.87,106,15,Serpost
+1D72,San Borja,Pachacámac,16.87,21,21,DHL Express Perú
+1D73,Santa Rosa,Punta Negra,19.98,78,15,Olva Courier
+1D73,Santa Rosa,Punta Negra,19.98,87,17,Serpost
+1D73,Santa Rosa,Punta Negra,19.98,27,22,DHL Express Perú
+1D74,Lurín,Punta Hermosa,5.5,80,16,Olva Courier
+1D74,Lurín,Punta Hermosa,5.5,76,15,Serpost
+1D74,Lurín,Punta Hermosa,5.5,94,22,DHL Express Perú
+1D75,Villa El Salvador,Lurín,5.41,119,19,Olva Courier
+1D75,Villa El Salvador,Lurín,5.41,82,17,Serpost
+1D75,Villa El Salvador,Lurín,5.41,71,18,DHL Express Perú
+1D76,Carmen de la Legua Reynoso,Ancón,29.59,114,12,Olva Courier
+1D76,Carmen de la Legua Reynoso,Ancón,29.59,51,24,Serpost
+1D76,Carmen de la Legua Reynoso,Ancón,29.59,42,25,DHL Express Perú
+1D77,Lince,Santa Anita,21.16,63,14,Olva Courier
+1D77,Lince,Santa Anita,21.16,109,21,Serpost
+1D77,Lince,Santa Anita,21.16,73,20,DHL Express Perú
+1D78,Mi Perú,Pueblo Libre,9.35,104,12,Olva Courier
+1D78,Mi Perú,Pueblo Libre,9.35,28,14,Serpost
+1D78,Mi Perú,Pueblo Libre,9.35,55,15,DHL Express Perú
+1D79,Barranco,Rímac,29.2,65,11,Olva Courier
+1D79,Barranco,Rímac,29.2,110,15,Serpost
+1D79,Barranco,Rímac,29.2,37,21,DHL Express Perú
+1D80,Santiago de Surco,Chaclacayo,25.31,111,11,Olva Courier
+1D80,Santiago de Surco,Chaclacayo,25.31,122,24,Serpost
+1D80,Santiago de Surco,Chaclacayo,25.31,64,19,DHL Express Perú
+1D81,Mi Perú,Santa Rosa,7.41,66,14,Olva Courier
+1D81,Mi Perú,Santa Rosa,7.41,116,23,Serpost
+1D81,Mi Perú,Santa Rosa,7.41,48,18,DHL Express Perú
+1D82,San Borja,Comas,25.55,50,14,Olva Courier
+1D82,San Borja,Comas,25.55,54,16,Serpost
+1D82,San Borja,Comas,25.55,100,20,DHL Express Perú
+1D83,Lurín,San Isidro,27.66,99,10,Olva Courier
+1D83,Lurín,San Isidro,27.66,58,16,Serpost
+1D83,Lurín,San Isidro,27.66,22,16,DHL Express Perú
+1D84,San Borja,Bellavista,5.96,93,14,Olva Courier
+1D84,San Borja,Bellavista,5.96,76,24,Serpost
+1D84,San Borja,Bellavista,5.96,82,21,DHL Express Perú
+1D85,San Isidro,Jesús María,21.16,68,21,Olva Courier
+1D85,San Isidro,Jesús María,21.16,33,22,Serpost
+1D85,San Isidro,Jesús María,21.16,88,16,DHL Express Perú
+1D86,Villa El Salvador,Carmen de la Legua Reynoso,16.88,116,10,Olva Courier
+1D86,Villa El Salvador,Carmen de la Legua Reynoso,16.88,70,19,Serpost
+1D86,Villa El Salvador,Carmen de la Legua Reynoso,16.88,72,17,DHL Express Perú
+1D87,San Juan de Miraflores,Santa Anita,6.02,119,19,Olva Courier
+1D87,San Juan de Miraflores,Santa Anita,6.02,105,21,Serpost
+1D87,San Juan de Miraflores,Santa Anita,6.02,42,11,DHL Express Perú
+1D88,Santa Anita,San Bartolo,26.71,32,17,Olva Courier
+1D88,Santa Anita,San Bartolo,26.71,81,16,Serpost
+1D88,Santa Anita,San Bartolo,26.71,103,14,DHL Express Perú
+1D89,Santa Anita,Pucusana,12.5,93,16,Olva Courier
+1D89,Santa Anita,Pucusana,12.5,117,25,Serpost
+1D89,Santa Anita,Pucusana,12.5,49,25,DHL Express Perú
+1D90,Santa María del Mar,Rímac,21.91,70,20,Olva Courier
+1D90,Santa María del Mar,Rímac,21.91,105,19,Serpost
+1D90,Santa María del Mar,Rímac,21.91,120,19,DHL Express Perú
+1D91,Santiago de Surco,Jesús María,24.8,81,26,Olva Courier
+1D91,Santiago de Surco,Jesús María,24.8,90,21,Serpost
+1D91,Santiago de Surco,Jesús María,24.8,55,16,DHL Express Perú
+1D92,La Punta,La Victoria,10.13,88,18,Olva Courier
+1D92,La Punta,La Victoria,10.13,55,17,Serpost
+1D92,La Punta,La Victoria,10.13,85,23,DHL Express Perú
+1D93,Magdalena del Mar,Pucusana,24.47,50,14,Olva Courier
+1D93,Magdalena del Mar,Pucusana,24.47,20,17,Serpost
+1D93,Magdalena del Mar,Pucusana,24.47,124,21,DHL Express Perú
+1D94,La Victoria,Punta Hermosa,16.66,91,19,Olva Courier
+1D94,La Victoria,Punta Hermosa,16.66,68,16,Serpost
+1D94,La Victoria,Punta Hermosa,16.66,59,13,DHL Express Perú
+1D95,Pachacámac,Barranco,15.99,47,20,Olva Courier
+1D95,Pachacámac,Barranco,15.99,63,14,Serpost
+1D95,Pachacámac,Barranco,15.99,77,22,DHL Express Perú
+1D96,Rímac,Carabayllo,7.67,98,16,Olva Courier
+1D96,Rímac,Carabayllo,7.67,40,16,Serpost
+1D96,Rímac,Carabayllo,7.67,27,14,DHL Express Perú
+1D97,Mi Perú,Barranco,20.63,120,21,Olva Courier
+1D97,Mi Perú,Barranco,20.63,72,17,Serpost
+1D97,Mi Perú,Barranco,20.63,51,23,DHL Express Perú
+1D98,Mi Perú,Callao,17.31,118,22,Olva Courier
+1D98,Mi Perú,Callao,17.31,56,10,Serpost
+1D98,Mi Perú,Callao,17.31,110,19,DHL Express Perú
+1D99,San Juan de Lurigancho,Chaclacayo,29.93,120,14,Olva Courier
+1D99,San Juan de Lurigancho,Chaclacayo,29.93,122,22,Serpost
+1D99,San Juan de Lurigancho,Chaclacayo,29.93,113,23,DHL Express Perú
+1D100,San Juan de Lurigancho,Lurín,5.47,75,13,Olva Courier
+1D100,San Juan de Lurigancho,Lurín,5.47,99,22,Serpost
+1D100,San Juan de Lurigancho,Lurín,5.47,120,23,DHL Express Perú
