@@ -1,18 +1,29 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkinter import PhotoImage
+from tkinter import Toplevel
+import os
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 
 
 class App:
     def __init__(self, root):
         self.root = root
         self.root.title("UPCRutas")
-        self.root.geometry("600x550")
+        self.root.geometry("300x400")
 
-        # Cargar el logo
-        self.logo = PhotoImage(file="logo.png")
-        # Cambiar tamaño del logo
-        self.logo = self.logo.subsample(3, 3)
+        # Cargar el logo con una ruta absoluta o relativa correcta
+        script_dir = os.path.dirname(__file__)  # Ruta del script
+        logo_path = os.path.join(script_dir, "logo.png")
+
+        try:
+            self.logo = PhotoImage(file=logo_path)
+        except tk.TclError:
+            messagebox.showerror("Error", f"No se pudo cargar la imagen {logo_path}")
+            self.logo = None
 
         self.create_form1()
 
@@ -20,8 +31,9 @@ class App:
         self.clear_frame()
 
         # Formulario 1: Ingreso de Nombre y Apellido
-        self.label_logo = tk.Label(self.root, image=self.logo)
-        self.label_logo.pack(pady=10)
+        if self.logo:
+            self.label_logo = tk.Label(self.root, image=self.logo)
+            self.label_logo.pack(pady=10)
 
         self.label_title = tk.Label(self.root, text="UPCRutas", font=("Arial", 18))
         self.label_title.pack(pady=5)
@@ -45,11 +57,11 @@ class App:
         self.clear_frame()
 
         # Formulario 2: Selección de Origen y Destino
-        self.label_logo = tk.Label(self.root, image=self.logo)
-        self.label_logo.pack(pady=10)
+        if self.logo:
+            self.label_logo = tk.Label(self.root, image=self.logo)
+            self.label_logo.pack(pady=10)
 
-        self.label_title = tk.Label(self.root,
-                                    text=f"Hola {self.name} {self.lastname} ::::::::::::::::::: Escoge la opción",
+        self.label_title = tk.Label(self.root, text=f"Hola {self.name} {self.lastname} Escoge la opción",
                                     font=("Arial", 10))
         self.label_title.pack(pady=5)
 
@@ -68,12 +80,16 @@ class App:
         self.btn_buscar = tk.Button(self.root, text="Buscar", command=self.validate_form2)
         self.btn_buscar.pack(pady=20)
 
+        self.btn_visualizar_mapa = tk.Button(self.root, text="Visualizar Mapa", command=self.show_map)
+        self.btn_visualizar_mapa.pack(pady=5)
+
     def create_form3(self):
         self.clear_frame()
 
         # Formulario 3: Selección de Criterio
-        self.label_logo = tk.Label(self.root, image=self.logo)
-        self.label_logo.pack(pady=10)
+        if self.logo:
+            self.label_logo = tk.Label(self.root, image=self.logo)
+            self.label_logo.pack(pady=10)
 
         self.label_title = tk.Label(self.root, text=f"Hola {self.name} {self.lastname} Escoge la opción",
                                     font=("Arial", 10))
@@ -88,14 +104,11 @@ class App:
         self.label_vista = tk.Label(self.root, text="Visualización")
         self.label_vista.pack(pady=5)
 
-        self.grafo = PhotoImage(file="grafo-reducido.png")
-        # Cambiar tamaño del logo
-        self.grafo = self.grafo.subsample(7, 7)
-        self.label_grafo = tk.Label(self.root, image=self.grafo)
-        self.label_grafo.pack(pady=5)
+        self.visualizacion = tk.Label(self.root, text="", bg="grey", width=30, height=2)
+        self.visualizacion.pack(pady=5)
 
         self.btn_visualizar = tk.Button(self.root, text="Buscar", command=self.show_visualizacion)
-        self.btn_visualizar.pack(pady=10)
+        self.btn_visualizar.pack(pady=20)
 
     def validate_form1(self):
         self.name = self.entry_name.get().strip()
@@ -116,6 +129,38 @@ class App:
     def show_visualizacion(self):
         # Lógica para mostrar resultados basada en el criterio seleccionado.
         self.visualizacion.config(text=f"Mostrando resultado basado en {self.criterio.get()}")
+
+    def show_map(self):
+        # Cargar los datos y crear el grafo
+        df = pd.read_csv('datos_courier_lima_reducido.csv')
+
+        G = nx.Graph()
+        for distrito in df['Punto_Partida'].unique():
+            G.add_node(distrito)
+
+        for _, row in df.iterrows():
+            G.add_edge(row['Punto_Partida'], row['Punto_Llegada'], distance=row['Distancia (km)'])
+
+        # Crear la visualización
+        pos = nx.spring_layout(G)
+        fig, ax = plt.subplots()
+        nx.draw(G, pos, with_labels=True, node_size=300, node_color='skyblue', font_size=10, edge_color='gray',
+                width=0.5, ax=ax)
+        labels = nx.get_edge_attributes(G, 'distance')
+        nx.draw_networkx_edge_labels(G, pos, edge_labels=labels, ax=ax)
+        ax.set_title('Grafo reducido de rutas de courieres en Lima')
+
+        # Mostrar la visualización en una ventana de Tkinter con soporte de zoom
+        window = Toplevel(self.root)
+        window.title("Mapa de Grafos")
+
+        canvas = FigureCanvasTkAgg(fig, master=window)
+        canvas.draw()
+        canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
+
+        toolbar = NavigationToolbar2Tk(canvas, window)
+        toolbar.update()
+        canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
 
     def clear_frame(self):
         for widget in self.root.winfo_children():
@@ -143,3 +188,4 @@ destino_options = [
 root = tk.Tk()
 app = App(root)
 root.mainloop()
+
